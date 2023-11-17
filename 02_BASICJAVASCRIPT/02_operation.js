@@ -1,0 +1,20 @@
+console.log(9+"8")
+console.log("9"+ + "6")
+console.log("7"- 2)
+console.log(3 - -"8")
+console.log(3 - -8)
+console.log(3 + + 8)
+console.log("3" - -"8")
+console.log(3 *"8")
+console.log("3"*8)
+console.log(3**8)
+console.log(8**2)
+let v = 8;
+console.log(-v)
+console.log(+ true)
+console.log(+false)
+str1="Sanket"
+str2=" Mohanty"
+console.log(str1+ str2)
+console.log(str1 - str2)
+console.log(9+5+"0")
