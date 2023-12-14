@@ -1,0 +1,19 @@
+//In javascript there are two types of memory stack(primitive) and heap(non primitive)
+let str = "primitive datatype is of stack memory"
+let str1 = str;
+str1 = "Non-primitive datatype is of heap memory"
+console.log(str1)
+console.log(str)
+let array = [1,2,3,4]
+let array1 =[5,6,7,8]
+ array1 = array;
+console.log(array)
+console.log(array1)
+let obj ={
+    email:"sanketmohanty1304@gmail.com",
+    mobile_no:98213479398
+}
+let newobj = obj;
+newobj.email = "sanket4545@gmail.com"
+console.log(newobj.email)
+console.log(obj.email)

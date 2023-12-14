@@ -1,0 +1,18 @@
+//non primitive (reference) 
+//arrays,objects,functions
+
+//arrays
+
+const array = ["sanket",55,"rope"]
+console.log(array)
+console.log(typeof array)
+const obj = {
+    name: "sanket",
+    age: 19
+}
+console.log(obj)
+console.log(typeof obj)
+const createfunc = function(){
+console.log("function created")}
+console.log(typeof createfunc)
+
