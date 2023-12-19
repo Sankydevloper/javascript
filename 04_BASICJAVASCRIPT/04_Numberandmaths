@@ -1,0 +1,26 @@
+const num = 200;
+const value = new Number(340)
+console.log(num)
+console.log(value)
+console.log(value.toExponential())
+console.log(value.toFixed(3))
+console.log(value.toString())
+const multiple = 1234569
+console.log(multiple.toLocaleString())
+console.log(multiple.toLocaleString(`en-IN`))
+let deci = 891.967;
+
+
+//math
+console.log(Math.abs(-6.3))
+console.log(Math.round(7.2))
+console.log(Math.ceil(5.2))
+console.log(Math.floor(4.6))
+console.log(Math.max(7,43,67,9))
+console.log(Math.min(2,7,5,34))
+console.log(Math.random())
+console.log((Math.random()*10)+1)
+console.log(Math.floor(Math.random()*10)+1)
+const max =20;
+const min = 10;
+console.log(Math.floor(Math.random()*(max+min-1))+min)
