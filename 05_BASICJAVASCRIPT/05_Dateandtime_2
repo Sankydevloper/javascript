@@ -1,0 +1,5 @@
+let mycreateddate = new Date()
+console.log(mycreateddate)
+console.log(mycreateddate.toLocaleString(`default`),{
+    weekday: "long",
+})

@@ -1,0 +1,40 @@
+const firstarray = [1,2,3,4,5]
+const secondarray = ["sanket","sharmishta","mohanty","dash"]
+const thirdarray = ["sanket",2,43,true,]
+const  fourtharray = new Array(3,5,1)
+console.log(firstarray)
+console.log(secondarray)
+console.log(thirdarray[2])
+console.log(fourtharray)
+//array methods
+firstarray.push(9)
+console.log(firstarray)
+console.log(secondarray.pop())
+console.log(firstarray.pop())
+firstarray.pop()
+console.log(firstarray)
+thirdarray.unshift(15)
+console.log(thirdarray)
+thirdarray.shift()
+console.log(thirdarray)
+
+console.log(fourtharray.includes(5))
+console.log(fourtharray.includes(9))
+console.log(fourtharray.indexOf(5))
+console.log(fourtharray.indexOf(9))
+
+
+const newarray = firstarray.join()
+console.log(newarray)
+console.log(typeof newarray)
+
+const secondnewarray = thirdarray.slice(1,3)
+console.log(secondnewarray)
+console.log(thirdarray)
+
+const thirdnewarray = thirdarray.splice(1,3)
+console.log(thirdnewarray)
+console.log(thirdarray)
+
+
+
