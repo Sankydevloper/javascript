@@ -1,0 +1,16 @@
+const object_creation = {
+    name:"catherine",
+    age:43,
+    place:"Amsterdam",
+    hobby: "Read books"
+}
+object_creation.greeting = function(){
+    console.log("the function returns the value when the function is called")
+}
+console.log(object_creation.greeting())
+
+
+object_creation.greetingnew = function(){
+    console.log(`${this.name} is a proffesor at Oxford University of age ${this.age},she stays at ${this.place}, Her hobby is to ${this.hobby} `)
+}
+console.log(object_creation.greetingnew())

@@ -1,0 +1,11 @@
+const youtuber = {
+    subscription: "1.32 crore",
+    views: "456k",
+    likes:"230k"
+}
+const {views} = youtuber
+console.log(views)
+
+const {subscription : subs} = youtuber
+console.log(subs)
+
