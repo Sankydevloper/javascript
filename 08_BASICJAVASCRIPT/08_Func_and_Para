@@ -1,0 +1,45 @@
+//function definition
+function funccreate (){
+    console.log(`S`)
+    console.log(`A`)
+    console.log(`N`)
+    console.log(`K`)
+    console.log(`E`)
+    console.log(`T`)
+}
+//FUNCTION CALLING/FUNCTION REFERENCE
+funccreate()
+
+
+function  sumofnumbers (num1,num2){
+//console.log(num1+num2)............the function does not return the value when we print it inside the function after the function is called
+return num1+num2
+}
+const store = sumofnumbers(4,2)
+console.log(store)
+
+
+
+function interpole (refer){
+    return `${refer} has started learning javascript`
+}
+console.log(interpole(`Sanket`))
+console.log(interpole())
+
+
+function print (user){
+if(!user){
+console.log("no argument for user")
+return user
+}
+}
+console.log(print())
+
+//user===undefined can also represented as !user
+
+//value within the function definiton
+function data (feature = "12 inch"){
+return `${feature} of tablet`
+}
+console.log(data());
+console.log(data("15 inch"));

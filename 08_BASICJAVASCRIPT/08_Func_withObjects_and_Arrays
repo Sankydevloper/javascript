@@ -1,0 +1,37 @@
+function numerators(...num)
+{
+return num
+}
+console.log(numerators(350,200,100))
+// here ... refers to the rest operator
+
+
+function numerous(val1,...num)
+{
+return num
+}
+console.log(numerous(350,200,100))
+
+
+//pass object value within a function
+const obj = {
+    name:"sanket",
+    age:19
+}
+function decobject (anyobject){
+console.log(`${obj.name} is learning web devlopement at the age of ${obj.age}`);
+}
+/*decobject({
+    name:"raj",
+    age:21})*/
+
+    //pass array value within a function
+    let array = [21,90,76,54,32]
+
+    function arraypassing(getarray){
+        return getarray[2]
+    }
+    console.log(arraypassing(array))
+    console.log(arraypassing([56,25,15,90]))
+
+
