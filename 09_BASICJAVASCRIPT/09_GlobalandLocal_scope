@@ -1,0 +1,17 @@
+//global scope
+
+let a=50
+const str = "global scope"
+
+let c = 350
+if(true){
+    //local scope
+    let a =15
+    const b = "local scope"
+    console.log(a)
+    console.log(b);
+    console.log(c);
+}
+console.log(a)
+//console.log(b) cannot print the value of b outside the scope
+

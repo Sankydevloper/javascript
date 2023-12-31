@@ -1,0 +1,10 @@
+function first(){
+    const v = 21
+    function second(){
+        const c = 15
+        console.log(v)
+    }
+    second()
+    //console.log(c);
+}
+first()

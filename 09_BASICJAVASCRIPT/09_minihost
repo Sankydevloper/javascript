@@ -1,0 +1,8 @@
+console.log(one(7))
+function one(add){
+    return `${add} is a prime number`
+}
+//console.log(two(4)) here the function cannot be called before declaration
+const value = function two(sum){
+    return `${sum} is a non prime number`
+}
