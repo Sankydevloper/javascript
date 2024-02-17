@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit and Remove Elements in DOM</title>
+</head>
+<body style="background-color: black;color: blue;padding: 20px;">
+    <UL class="cricket">
+        <li>batsman</li>
+        <li>bowler</li>
+        <li>fielder</li>
+    </UL>
+</body>
+<script>
+    function addfunc(sport) {
+        const li = document.createElement(`li`)
+        li.innerHTML=`${sport}`
+        document.querySelector(`.cricket`).appendChild(li)
+    }
+    addfunc("umpire's call")
+    addfunc("wicket")
+    function newaddfunc(fav) {
+        const li = document.createElement(`li`)
+        li.appendChild(document.createTextNode(fav))
+        document.querySelector(`.cricket`).appendChild(li)
+    }
+    newaddfunc(`#DRS`)
+
+
+    //Edit
+    const moderncricket = document.querySelector(`li:nth-child(3)`)
+    //moderncricket.innerHTML= "fitness"
+    const newlist = document.createElement(`li`)
+    newlist.textContent="fitness"
+    moderncricket.replaceWith(newlist)
+
+
+    //edit
+    const moderndays = document.querySelector(`li:last-child`)
+    moderndays.outerHTML= `<li>Reversesweep</li>`
+
+    //remove
+    const removal = document.querySelector(`li:last-child`)
+    removal.remove()
+</script>
+</html>

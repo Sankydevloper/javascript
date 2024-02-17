@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM CREATING ELEMENT</title>
+</head>
+<body style="background-color: black;color: blue;padding: 20px;">
+    <div class="parent">
+        <div class="week">Sunday</div>
+        <div class="week">Monday</div>
+        <div class="week">Tueday</div>
+        <div class="week">Wednesday</div>
+        <div class="week">Thursday</div>
+        <div class="week">Friday</div>
+        <div class="week">Saturday</div>
+    </div>
+</body>
+<script>
+    const parent= document.querySelector(`.parent`)
+    /* console.log(parent);
+   console.log(parent.children)
+    //console.log(parent.children[1].innerHTML)
+   for (let index = 0; index < parent.children.length; index++) {
+        console.log(parent.children[index].innerHTML)
+    }
+    parent.children[4].style.color=`red`
+    const day = document.querySelector(`.week`)
+    console.log(day);
+    console.log(day.parentElement);
+    console.log(day.nextElementSibling);
+    console.log(day.nextElementSibling.outerHTML);
+    console.log(day.nextElementSibling.innerHTML);*/
+    console.log("NODELIST:",parent.childnode);
+</script>
+</html>
